@@ -9,7 +9,7 @@ import {
   MessagesPlaceholder,
 } from "langchain/prompts";
 import { BufferMemory } from "langchain/memory";
-import { OPEN_API_SECTRET_KEY, TELEGRAM_TOKEN } from "./env.js";
+import { OPEN_API_SECTRET_KEY, TELEGRAM_TOKEN } from "../env.js";
 
 // Create an instance of the Telegram bot
 const bot = new Telegraf(TELEGRAM_TOKEN);
